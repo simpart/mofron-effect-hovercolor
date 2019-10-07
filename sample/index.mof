@@ -1,0 +1,6 @@
+<require>
+    <tag module="mofron-comp-text">Text</tag>
+    <tag module="mofron-effect-hovercolor">HovColor</tag>
+</require>
+
+<Text effect=HovColor('red','black')>Hover Color</Text>

@@ -1,5 +1,5 @@
 /**
- * @file mofron-effect-dev/index.js
+ * @file mofron-effect-hovercolor/index.js
  * @brief hover color effect for mofron
  * @author simpart
  */
@@ -13,6 +13,7 @@ mf.effect.HoverColor = class extends mf.Effect {
      * @param (mixed) color: main color at the hover-in
      *                object: effect option
      * @param (color) main color at the hover-out
+     * @type private
      */
     constructor (po,p2) {
         try {
